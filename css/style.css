@@ -21,6 +21,7 @@ body {
 
 .main-container {
   width: 100%;
+  max-width: 1440px;
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -87,8 +88,8 @@ li a {
 }
 .logo {
   padding-top: 25px;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 0;
+  padding-right: 0;
   margin-left: 0px;
 }
 img#logo {
@@ -112,7 +113,7 @@ h1 {
   margin: 0;
 }
 #recherche {
-  padding-left: auto;
+  padding-left: 0;
   padding-top: 30px;
 }
 #recherche p {
@@ -505,7 +506,7 @@ h2 {
 .element_activites {
   display: flex;
   flex-direction: column;
-  padding: auto;
+  padding: 0;
   align-items: center;
   /* justify-content: space-around; */
   width : 280px;
