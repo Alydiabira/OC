@@ -66,6 +66,10 @@ header {
   align-content: space-between;
   float: right;
 }
+nav li a {
+  padding: 14px 16px;
+
+}
 
 ul {
   list-style-type: none;
@@ -83,7 +87,12 @@ li a {
   display: block;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 14px 16px;
+  text-decoration: none;
+}
+.liens_footer li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
   text-decoration: none;
 }
 .logo {
@@ -95,12 +104,12 @@ li a {
 img#logo {
   height: 25px;
 }
-.li :hover {
+.mi :hover {
   color: #0065fc;
   border-top: #0065fc solid;
 }
 
-.li a:hover {
+.mi a:hover {
   color: #0065fc;
   border-top: #0065fc 1px solid;
   
