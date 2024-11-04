@@ -432,7 +432,7 @@ aside {
   font-weight: 750;
   font-size: 1.13vmax;
   object-fit: fill;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .prix_hebergements {
   font-size: 1vmax;
